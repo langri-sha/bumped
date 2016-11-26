@@ -2,7 +2,7 @@
 'use strict'
 require('coffee-script').register()
 var fs = require('fs')
-var Bumped = require('./../lib/Bumped')
+var Bumped = require('../index')
 var updateNotifier = require('update-notifier')
 var partial = require('lodash.partial')
 var cli = require('meow')({

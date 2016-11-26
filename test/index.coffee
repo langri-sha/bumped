@@ -5,7 +5,7 @@ should     = require 'should'
 fs         = require 'fs-extra'
 YAML       = require 'yaml-parser'
 jsonFuture = require 'json-future'
-Bumped     = require '../lib/Bumped'
+Bumped     = require '../index'
 pkg        = require '../package.json'
 
 loadConfig = (filepath) ->
